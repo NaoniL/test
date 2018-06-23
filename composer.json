@@ -1,0 +1,24 @@
+{
+    "name": "lvkai/uploadfile",
+    "description": "this is test",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "Define your dependencies.",
+    "authors": [
+        {
+            "name": "NaoniL",
+            "email": "571511428@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }  
+}
