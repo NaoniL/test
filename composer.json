@@ -12,7 +12,7 @@
             "email": "571511428@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "autoload": {
         "psr-4": {
             "Test\\": "src/"
