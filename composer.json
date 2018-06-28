@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.4.0"
     },
-    "license": "Define your dependencies.",
+    "license": "MIT",
     "authors": [
         {
             "name": "NaoniL",
@@ -19,3 +19,4 @@
         }
     }  
 }
+
