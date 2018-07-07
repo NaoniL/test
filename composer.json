@@ -2,21 +2,26 @@
     "name": "lvkai/test",
     "description": "this is test",
     "type": "library",
+    "homepage": "http://sxctkj.cc",
+    "keywords": ["test","test"],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=7.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "NaoniL",
+            "name": "Naomi",
             "email": "571511428@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Test\\": "src/"
+            "Spider\\": "src/"
         }
-    }  
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spider\\": "tests/"
+        }
+    }
 }
-
